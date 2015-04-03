@@ -1,0 +1,18 @@
+{
+  "name": "jspm-test-app",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "author": "Tauren Mills",
+  "devDependencies": {
+    "jspm": "^0.15.1"
+  },
+  "scripts": {
+    "postinstall": "node_modules/.bin/jspm install --yes"
+  },
+  "jspm": {
+    "dependencies": {
+      "jspm-test-common": "github:Orbs/jspm-test-common@^0.0.1"
+    }
+  }
+}
